@@ -22,7 +22,7 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
   // console.log(v);
 
   // // get previous balance by using the function
-  //  const previousBalanceTotal = getextElementValueById("balance-total");
-  // const newBalanceTotal = previousBalanceTotal + newDepositAmount;
-  // setTextElementValueById("balance-total", newBalanceTotal);
+    const previousBalanceTotal = getextElementValueById("balance-total");
+   const newBalanceTotal = previousBalanceTotal + newDepositAmount;
+   setTextElementValueById("balance-total", newBalanceTotal);
 });
